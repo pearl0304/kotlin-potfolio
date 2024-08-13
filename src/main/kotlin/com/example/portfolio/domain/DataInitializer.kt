@@ -11,7 +11,7 @@ class DataInitialize(
   private val achievementRepository: AchievementRepository,
   private val introductionRepository: IntroductionRepository,
   private var linkRepository: LinkRepository,
-  private val skillRepository: ProjectSkillRepository,
+  private val skillRepository: SkillRepository,
   private val projectRepository: ProjectRepository,
   private val experienceRepository: ExperienceRepository
 ) {
