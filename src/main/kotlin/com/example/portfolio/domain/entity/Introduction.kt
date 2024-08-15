@@ -3,7 +3,7 @@ package com.example.portfolio.domain.entity
 import jakarta.persistence.*
 
 @Entity
-class Introductioin(
+class Introduction(
   content: String,
   isActive: Boolean
 ) : BaseEntity() {
