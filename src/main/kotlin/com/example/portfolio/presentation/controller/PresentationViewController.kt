@@ -36,6 +36,6 @@ class PresentationViewController(
   fun projects(model: Model): String {
     val projects = presentationService.getProjects()
     model.addAttribute("projects", projects)
-    return "presentation/proejcts"
+    return "presentation/projects"
   }
 }
