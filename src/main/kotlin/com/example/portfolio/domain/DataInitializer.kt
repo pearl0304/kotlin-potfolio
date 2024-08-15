@@ -48,9 +48,9 @@ class DataInitializer(
 
     // link 초기화
     val links = mutableListOf<Link>(
-      Link(name = "Github", content = "https://github.com/infomuscle", isActive = true),
+      Link(name = "Github", content = "https://github.com/pearl0304", isActive = true),
       Link(
-        name = "Linkedin", content = "https://www.linkedin.com/in/bokeunjeong",
+        name = "Linkedin", content = "https://velog.io/@kylie_03/posts",
         isActive = true
       ),
     )
