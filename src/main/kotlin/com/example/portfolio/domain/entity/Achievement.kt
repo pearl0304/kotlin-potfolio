@@ -9,7 +9,7 @@ class Achievement(
   description: String,
   achievedDate: LocalDate?,
   host: String,
-  isAchieve: Boolean
+  isActive: Boolean
 ) : BaseEntity() {
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -20,6 +20,6 @@ class Achievement(
   var description: String = description
   var achievedDate: LocalDate? = achievedDate
   var host: String = host
-  var isAchieve: Boolean = isAchieve
+  var isActive: Boolean = isActive
 
 }
